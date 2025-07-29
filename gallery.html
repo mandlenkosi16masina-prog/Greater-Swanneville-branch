@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fan Gallery | Greater Swanneville Pirates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      background-color: #D50000;
+      text-align: center;
+      padding: 25px;
+    }
+
+    header h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #D50000;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #D50000;
+      text-align: center;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Fan Gallery</h1>
+    <p>Moments from the Greater Swanneville Branch</p>
+  </header>
+
+  <section>
+    <div class="gallery-grid">
+      <img src="s" alt="Match Day 1">
+      <img src="" alt="Branch Meeting">
+      <img src="" alt="Community Event">
+      <img src="" alt="Stadium Trip">
+      <img src="" alt="Supporters Gear">
+      <img src="" alt="Victory Celebration">
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Greater Swanneville Branch | Celebrating
