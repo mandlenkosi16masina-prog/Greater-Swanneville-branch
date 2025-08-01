@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Greater Swanneville Pirates Branch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: #D50000;
+      text-align: center;
+      padding: 30px;
+    }
+
+    header h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #D50000;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .event {
+      background-color: #111;
+      border-left: 5px solid #D50000;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #D50000;
+    }
+
+    .event h3 {
+      margin-top: 0;
+      color: #fff;
+    }
+
+    .event p {
+      color: #ccc;
+      font-size: 1em;
+    }
+
+    .event-date {
+      font-weight: bold;
+      color: #D50000;
+    }
+
+    footer {
+      background-color: #D50000;
+      text-align: center;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Branch Events</h1>
+    <p>Greater Swanneville | Unity. Passion. Pirates Forever.</p>
+  </header>
+
+  <section>
+    <h2>Upcoming Events</h2>
+
+    <div class="event">
+      <h3>🏟️ Match Viewing: Pirates vs Polokwane City</h3>
+      <p class="event-date">Date: 02 August 2025 | Venue: Orlando Stadium</p>
+      <p>Join fellow Buccaneers for a massive Soweto Derby screening. Wear your black and white and bring the noise!</p>
+      <img src="images/poster.jpg" alt="Greater Swanneville Branch Logo" style="height: 120px; margin-right: 20px; border-radius: 8px; box-shadow: 0 0 8px #fff;" />
+          <div>
+              <h1 style="font-family: 'Anton', sans-serif; font-size: 2.5em; margin: 0;">Greater Swanneville Branch</h1>
+              <p style="margin: 5px 0 10px;">Official Orlando Pirates Supporters – Mogale City</p>
+              <button onclick="document.getElementById('logoModal').style.display='block'" style="padding: 8px 15px; background-color: white; color: #D50000; border: none; border-radius: 5px; cursor: pointer;">View Logo</button>
+           </div>
+          <!-- Modal (hidden by default) -->
+       <div id="logoModal" style="display: none; position: fixed; z-index: 999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8);">
+           <span onclick="document.getElementById('logoModal').style.display='none'" style="position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
+           <img src="images/poster.jpg" alt="Greater Swanneville Logo Full View" style="display: block; margin: 100px auto; max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 0 20px white;">
+       </div> 
+    </div>
+
+    <div class="event">
+      <h3>🚍 Stadium and Funeral Trip: Funeral at Meadowlands Zone 2</h3>
+      <p class="event-date">Date: 02 August 2025 | Departure: 8:00AM</p>
+      <p>Branch-organized trip to support the team live at Orlando Stadium and as well going to support a fall mighty at Meadowlands</p>
+    </div>
+
+    <div class="event">
+      <h3>🌱 Community Events</h3>
+      <p class="event-date">Date: 31 August 2025 | Location: Vasco LOdge Pub</p>
+      <p>We have a event were all most branches have been invited to come and celebrate with us</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Greater Swanneville Branch | Buccaneers in Action!</p>
+  </footer>
+</body>
+
+</html>
