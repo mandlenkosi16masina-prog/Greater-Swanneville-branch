@@ -128,13 +128,23 @@
 
     <section id="gallery">
         <h3>Fan Gallery</h3>
-         <header style="background-color: #D50000; padding: 20px; display: flex; align-items: center;     justify-content: flex-start; color: white;">
-         <img src="images/FB_IMG_1754037534736.jpg" alt="Greater Swanneville Branch Logo" style="height: 120px; margin-right: 20px; border-radius: 8px; box-shadow: 0 0 8px #fff;" />
-           <div>
-             <h1 style="font-family: 'Anton', sans-serif; font-size: 2.5em; margin: 0;">Greater Swanneville Branch</h1>
-             <p style="margin: 5px 0 0;">Official Orlando Pirates Supporters – Mogale City</p>
-           </div>
-          </header>
+         <header style="background-color: #D50000; padding: 20px; display: flex; align-items: center; justify-content: flex-start; color: white;">
+
+             <img src="images/FB_IMG_1754037534736.jpg" alt="Greater Swanneville Branch Logo" style="height: 120px; margin-right: 20px; border-radius: 8px; box-shadow: 0 0 8px #fff;" />
+
+            <div>
+                <h1 style="font-family: 'Anton', sans-serif; font-size: 2.5em; margin: 0;">Greater Swanneville Branch</h1>
+                <p style="margin: 5px 0 10px;">Official Orlando Pirates Supporters – Mogale City</p>
+                <button onclick="document.getElementById('logoModal').style.display='block'" style="padding: 8px 15px; background-color: white; color: #D50000; border: none; border-radius: 5px; cursor: pointer;">View Logo</button>
+            </div>
+        </header>
+
+      <!-- Modal (hidden by default) -->
+         <div id="logoModal" style="display: none; position: fixed; z-index: 999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8);">
+             <span onclick="document.getElementById('logoModal').style.display='none'" style="position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
+             <img src="images/FB_IMG_1754037534736.jpg" alt="Greater Swanneville Logo Full View" style="display: block; margin: 100px auto; max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 0 20px white;">
+          </div>
+
     </section>
 
     <section id="contact">
